@@ -6,8 +6,8 @@ USE Library_System; GO
 
 CREATE TABLE Customers(
     Customer_Id INT NOT NULL IDENTITY(1, 1) PRIMARY KEY,
-    FirstName NVARCHAR(200) NOT NULL,
-    LastName NVARCHAR(200) NOT NULL,  
+    First_name NVARCHAR(200) NOT NULL,
+    Last_name NVARCHAR(200) NOT NULL,  
     Faculty NVARCHAR(200) NOT NULL, 
     Limit INT NOT NULL
 );
@@ -41,8 +41,8 @@ CREATE TABLE Fine
 CREATE TABLE Author
 (
     Author_id INT NOT NULL IDENTITY(1, 1) PRIMARY KEY,
-    FirstName NVARCHAR(200) NOT NULL,
-    LastName NVARCHAR(200) NOT NULL
+    First_name NVARCHAR(200) NOT NULL,
+    Last_name NVARCHAR(200) NOT NULL
 );
 
 CREATE TABLE Book_author
